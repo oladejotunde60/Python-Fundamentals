@@ -20,3 +20,7 @@ def replace_domain(email, old_domain, new_domain):
         return new_email
     return email
 replace_domain('t@ab.com', 'ab.com', 'abc.com')
+
+#Compare strings
+word = "This is the beginning of my wonderful Python exploit"
+"This" in word
