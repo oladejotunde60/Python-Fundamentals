@@ -55,3 +55,7 @@ print(r)
 name = "Tunde"
 num = len(name)
 "Hello {} your lucky number is {}".format(name, num)
+#Using format continuation
+name = "Tunde"
+num = len(name)
+"Hello {name} your lucky number is {num}".format(name=name, num = len(name) * 3)
