@@ -50,3 +50,8 @@ u = "Hello world!".isnumeric()
 print(u)
 r = "234".isnumeric()
 print(r)
+
+#Using format
+name = "Tunde"
+num = len(name)
+"Hello {} your lucky number is {}".format(name, num)
