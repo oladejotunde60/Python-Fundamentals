@@ -64,3 +64,9 @@ num = len(name)
 price = 7.5
 with_tax = price * 1.09
 print("Actual price: ${:.2f}. with Tax: ${:.2f}".format(price, with_tax))
+
+#F to Celsius
+def to_celsius(x):
+    return (x - 32)*5/9
+for x in range(100):
+    print("{:>} F | {:>1.2f})".format(x, to_celsius(x)))
