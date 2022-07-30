@@ -59,3 +59,8 @@ num = len(name)
 name = "Tunde"
 num = len(name)
 "Hello {name} your lucky number is {num}".format(name=name, num = len(name) * 3)
+
+#Format continuation
+price = 7.5
+with_tax = price * 1.09
+print("Actual price: ${:.2f}. with Tax: ${:.2f}".format(price, with_tax))
